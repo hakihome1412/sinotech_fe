@@ -14,3 +14,67 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.text-word-break {
+  white-space: pre-line;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.bg-main {
+  background-color: #fe4e16;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.color-main {
+  color: #fe4e16;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.color-black {
+  color: #000000;
+}
+
+.border-radius-full {
+  border-radius: 100px;
+}
+
+.bordered {
+  border: 1px solid black;
+}
