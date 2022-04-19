@@ -201,15 +201,13 @@ const Header = (): JSX.Element => {
                 ))}
               </div>
               <div className="d-lg-flex d-none align-items-center">
-                <a href="/" className="text-decoration-none">
-                  Đăng nhập
-                </a>
-
-                <a href="tel:+84999999999">
-                  <div className="ms-3 py-2 px-3 bg-main color-white border-radius-full">
-                    0999.999.999
-                  </div>
-                </a>
+                <Link href="tel:+84999999999">
+                  <a>
+                    <div className="ms-3 py-2 px-3 bg-main color-white border-radius-full">
+                      0999.999.999
+                    </div>
+                  </a>
+                </Link>
               </div>
 
               <div
